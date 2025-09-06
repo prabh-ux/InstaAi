@@ -1,6 +1,6 @@
 
 import { Routes, Route, Link,Router } from "react-router-dom";
-import SeoDemo from "./components/seoDemo";
+import SeoDemo from "./components/SeoDemo";
 import HomePage from "./components/HomePage";
 import CaptionsSEO from "./components/CaptionSeo";
 import HashtagsSEO from "./components/HashtagsSEO";
