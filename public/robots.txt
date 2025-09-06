@@ -1,6 +1,4 @@
-# public/robots.txt
-
 User-agent: *
 Allow: /
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://insta-ai-xi.vercel.app/sitemap.xml
