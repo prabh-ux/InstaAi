@@ -32,4 +32,21 @@
     <loc>https://insta-ai-xi.vercel.app/faq</loc>
     <priority>0.7</priority>
   </url>
+  <!-- New Legal/Info Pages -->
+  <url>
+    <loc>https://insta-ai-xi.vercel.app/privacy</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://insta-ai-xi.vercel.app/conditions</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://insta-ai-xi.vercel.app/about</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://insta-ai-xi.vercel.app/contact</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
