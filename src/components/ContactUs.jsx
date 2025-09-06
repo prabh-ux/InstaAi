@@ -1,5 +1,6 @@
 // src/components/ContactUs.jsx
 import React from "react";
+import { Link } from "react-router";
 
 const ContactUs = () => {
   return (
@@ -20,7 +21,7 @@ const ContactUs = () => {
           <h2 className="text-xl font-semibold text-gray-200">Get in Touch</h2>
           <p>Email us anytime and we’ll get back to you as soon as possible:</p>
           <p className="text-purple-300 font-medium">
-            📧 support@instaai.com
+            📧 prabhkiratsinghbusiness@gmail.com
           </p>
         </section>
 
@@ -63,6 +64,14 @@ const ContactUs = () => {
               className="px-6 py-3 bg-purple-500 hover:bg-purple-600 rounded-xl font-semibold text-white transition"
             >
               Send Message
+            </button>
+            <button
+              type="button"
+              
+              className="px-6 ml-2 py-3 bg-purple-500 hover:bg-purple-600 rounded-xl font-semibold text-white transition"
+            >
+                <Link to="/">
+              Go Back</Link>
             </button>
           </form>
         </section>
