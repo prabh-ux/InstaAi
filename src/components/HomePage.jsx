@@ -103,6 +103,19 @@ const HomePage = () => {
                         Frequently Asked Questions (FAQ)
                     </Link>
 
+
+                </div>
+                <div className="text-center mt-4 flex flex-col sm:flex-row sm:flex-wrap justify-center gap-2">
+                    <Link to="/privacy" className="text-gray-400 hover:underline">Privacy Policy</Link>
+                    <Link to="/terms" className="text-gray-400 hover:underline">
+                        Terms & Conditions
+                    </Link>
+                    <Link to="/about" className="text-gray-400 hover:underline">
+                        About Us
+                    </Link>
+<Link to="/contact" className="text-gray-400 hover:underline">
+  Contact Us
+</Link>
                 </div>
             </div>
         </main>

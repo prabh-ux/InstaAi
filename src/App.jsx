@@ -11,6 +11,10 @@ import FaqPage from "./components/FaqPage";
 import hooks from "./hooks/hooks";
 import { useEffect } from "react";
 import ScrollAtTop from "./components/ScrollAtTop";
+import Privacy from "./components/Privacy";
+import Conditions from "./components/Conditions";
+import AboutUs from "./components/AboutUs";
+import ContactUs from "./components/ContactUs";
 
 
 
@@ -34,6 +38,14 @@ const App = () => {
       <Route path="/name-seo" element={<NameSEO  />} />
       <Route path="/instagram-tips" element={<TipsPage />} />
       <Route path="/faq" element={<FaqPage />} />
+      <Route path="/privacy" element={<Privacy />} />
+      <Route path="/terms" element={<Conditions />} />
+      <Route path="/about" element={<AboutUs />} />
+      <Route path="/contact" element={<ContactUs />} />
+
+
+
+
     </Routes></div>
   );
 };
